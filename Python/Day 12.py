@@ -13,8 +13,7 @@ class Student(Person):
     def __init__(self,firstName,lastName,idNum,scores):
         super().__init__(firstName,lastName,idNum)
         self.scores = scores
-    
-
+    #
     #   Function Name: calculate
     #   Return: A character denoting the grade.
     #
